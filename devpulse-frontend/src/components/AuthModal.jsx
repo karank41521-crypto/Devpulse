@@ -3,7 +3,7 @@ import axios from 'axios';
 import { X, Mail, Lock, User, EyeOff, Eye } from 'lucide-react';
 import { SiGithub, SiGoogle } from 'react-icons/si';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://devpulse-backend-ow87.onrender.com';
 
 export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
     const [isSignUp, setIsSignUp] = useState(false);

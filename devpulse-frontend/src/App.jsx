@@ -14,7 +14,7 @@ import ImagePreviewModal from './components/ImagePreviewModal.jsx';
 
 const COLORS = ['#6366F1', '#8B5CF6', '#EC4899', '#10B981', '#F59E0B'];
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://devpulse-backend-ow87.onrender.com';
 
 export default function App() {
   const [data, setData] = useState(null);
